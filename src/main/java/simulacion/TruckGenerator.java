@@ -1,4 +1,4 @@
-package simulacion.modelo;
+package simulacion;
 
 import co.paralleluniverse.fibers.SuspendExecution;
 import desmoj.core.simulator.ExternalEvent;

@@ -1,4 +1,4 @@
-package simulacion.modelo;
+package simulacion;
 
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
