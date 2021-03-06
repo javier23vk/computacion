@@ -34,6 +34,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Javier Cabrera/Documents/master/curso1/sem2/CpCI/practica simulacion 1/desmoj-2.5.1e-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/cabre/Proyectos/computacion/libraries/desmoj-2.5.1e-bin.jar" sourcepath="C:/Users/cabre/Universidad/Semestre2/Computación/desmoj-2.5.1e-src"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

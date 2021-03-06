@@ -46,6 +46,7 @@ public class Runner extends ExperimentRunner {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		new ExperimentStarterApplication(VancarrierModel.class, Runner.class).setVisible(true);
+		 ExperimentStarterApplication u = new ExperimentStarterApplication(VancarrierModel.class, Runner.class);
+		 u.setVisible(true);
 	}
 }
