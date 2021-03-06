@@ -1,4 +1,4 @@
-package desmoj.demo.vc_model;
+package simulacion.modelo;
 
 import java.util.Map;
 import java.util.TreeMap;
