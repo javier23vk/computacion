@@ -1,4 +1,4 @@
-package simulacion.modelo;
+package simulacion;
 
 import java.util.Map;
 import java.util.TreeMap;
@@ -197,6 +197,7 @@ public class VancarrierModel extends Model implements Parameterizable {
         // distributions
 		serviceTime = new ContDistUniform(this, "ServiceTimeStream", 3.0, 7.0, true, false);
 		truckArrivalTime = new ContDistExponential(this, "TruckArrivalTimeStream", 3.0, true, false);
+		//truckArrivalTime.setNonNegative(true);
 
 		// queues
 		truckQueue = new ProcessQueue<Truck>(this, "Truck Queue", true, false);
