@@ -135,7 +135,7 @@ public class VancarrierModel extends Model implements Parameterizable {
 	 * internal event-list of the simulator, which are necessary to start
 	 * the simulation.
 	 *
-	 * In this case a first truck arrival and the vancarrier are neceesary entries.
+	 * In this case a first truck arrival and the vancarrier are necesary entries.
 	 */
 	public void doInitialSchedules() {
 	    
@@ -196,7 +196,7 @@ public class VancarrierModel extends Model implements Parameterizable {
 
         // distributions
 		serviceTime = new ContDistUniform(this, "ServiceTimeStream", 3.0, 7.0, true, false);
-		truckArrivalTime = new ContDistExponential(this, "TruckArrivalTimeStream", 3.0, true, false);
+		truckArrivalTime = new ContDistExponential(this, "TruckArrivalTimeStream", 4.0, true, false);
 		//truckArrivalTime.setNonNegative(true);
 
 		// queues
